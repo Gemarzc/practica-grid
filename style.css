@@ -44,6 +44,9 @@ p {
 section {
   width: 90%;
   margin: auto;
+  margin-top: 30px;
+  max-width: 800px;
+  gap: 2%;
 }
 
 img {
