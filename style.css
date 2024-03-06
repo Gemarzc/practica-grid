@@ -41,45 +41,9 @@ p {
   width: 200%;
 }
 
-.school {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
-.student {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
-.time {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
-.alumne {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
 h2 {
   border: 2px solid var(--blue-color);
   color: #2bc5cd;
-}
-
-section {
-  grid-template-columns: repeat(2, 1fr);
 }
 
 footer {
