@@ -14,8 +14,6 @@
   box-sizing: border-box;
 }
 
-/* Son cuatro columnas porque son cuatro imágenes, y tres filas */
-
 header {
   background-color: var(--blue-color);
   color: white;
@@ -79,18 +77,21 @@ img {
   grid-row: 4/6;
 }
 
-h2 {
+main {
   border: 2px solid var(--blue-color);
   color: #2bc5cd;
-  background-color: blue;
-}
-
-main {
-  width: 40%;
+  width: 25%;
+  height: 210px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
 }
 
 h2 {
-  margin-bottom: 30px;
+  width: 80%;
+  height: 80%;
 }
 
 footer {
