@@ -82,11 +82,13 @@ img {
 }
 
 .school {
+  height: 100%;
   grid-column: 3/5;
   grid-row: 1/2;
 }
 
 .student {
+  height: 100%;
   grid-column: 5/7;
   grid-row: 1/2;
 }
