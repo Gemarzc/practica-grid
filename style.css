@@ -17,6 +17,7 @@
 body {
   text-align: center;
   font-family: sans-serif;
+  padding: 28px;
 }
 
 .layout {
@@ -90,10 +91,17 @@ h2 {
 
 h3 {
   color: white;
+  position: relative;
+  right: 30%;
+  top: 5%;
 }
 
 .footer p {
   color: white;
+  position: relative;
+  top: 20%;
+  left: 4%;
+  width: 90%;
 }
 
 button {
@@ -104,4 +112,13 @@ button {
   padding: 30px;
   border-style: none;
   cursor: pointer;
+  position: relative;
+  top: 32%;
+  right: 30%;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: 8.33%;
+  }
 }
