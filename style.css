@@ -117,7 +117,7 @@ button {
   right: 30%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
   .layout {
     width: 270px;
     max-height: 1500px;
